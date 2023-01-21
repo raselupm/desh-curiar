@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dc-header-broder-color {
+    border-color: #efefef;
+}
+
+.logo-heading {
+    font-size: 31.9px;
+}
+
+.dc-nav-links a {
+    @apply text-gray-300 inline-block py-4 pl-6
+}
+
+.primary-color, .dc-nav-links a.primary-color{
+    color: #5a26ff;
+}
+
+.dc-nav-links a.primary-color{
+    color: #5a26ff;
+}
+
+.login-page-bg {
+    background-image: url('../../assets/img/login-bg.png');
+}
+
+.dc-login-box {
+    max-width: 500px;
+}
+
+.dc-login-box h3 {
+    font-size: 22px;
+}
+
+.dc-btn {
+    @apply text-white font-semibold py-4 px-6 w-full rounded;
+    background-color: #5a26ff
+}
