@@ -1,10 +1,9 @@
 <x-app-layout>
-
     <div class="dashboard-bg py-7 pl-7 pr-4 w-full">
         <div class="flex items-center justify-between">
             <div class="min-w-max">
-                <h4 class="text-gray-900 font-size-22 font-bold">Shipments</h4>
-                <p class="text-gray-600"><span>109</span> Orders Found</p>
+                <h4 class="text-gray-900 font-size-22 font-bold">Employees</h4>
+                <p class="text-gray-600"><span>109</span> Id Found</p>
             </div>
 
             <div class="min-w-max">
@@ -47,7 +46,7 @@
                 <thead class="text-white bg-blue-600">
                     <tr>
                         <th scope="col" class="px-4 py-3 font-medium">
-                            Booking Id
+                            Employee Id
                         </th>
                         <th scope="col" class="px-4 py-3 font-medium">
                             Name
@@ -56,7 +55,7 @@
                             Address
                         </th>
                         <th scope="col" class="px-4 py-3 font-medium">
-                            Date
+                            Type
                         </th>
                         <th scope="col" class="px-4 py-3 font-medium">
                             Hub
@@ -78,7 +77,7 @@
                             Bheramara, Kushtia, Khulna
                         </td>
                         <td class="p-4 text-gray-600">
-                            12-11-2023
+                            Admin
                         </td>
                         <td class="p-4 text-gray-600">
                             Bheramara
@@ -111,7 +110,7 @@
                             Sakhipur, Bangladesh
                         </td>
                         <td class="p-4 text-gray-600">
-                            12-11-2023
+                            Hub Manager
                         </td>
                         <td class="p-4 text-gray-600">
                             Sakhipur
@@ -144,7 +143,7 @@
                             Chhagalnaiya, Bangladesh
                         </td>
                         <td class="p-4 text-gray-600">
-                            12-11-2023
+                            Driver
                         </td>
                         <td class="p-4 text-gray-600">
                             Chhagalnaiya
@@ -177,7 +176,7 @@
                             Lakshmipur, Bangladesh
                         </td>
                         <td class="p-4 text-gray-600">
-                            12-11-2023
+                           Delivery Man
                         </td>
                         <td class="p-4 text-gray-600">
                             Lakshmipur
@@ -210,7 +209,7 @@
                             Bheramara, Kushtia, Khulna
                         </td>
                         <td class="p-4 text-gray-600">
-                            12-11-2023
+                            Admin
                         </td>
                         <td class="p-4 text-gray-600">
                             Bheramara
@@ -243,7 +242,7 @@
                             Bheramara, Kushtia, Khulna
                         </td>
                         <td class="p-4 text-gray-600">
-                            12-11-2023
+                            Delivery Man
                         </td>
                         <td class="p-4 text-gray-600">
                             Bheramara
@@ -276,7 +275,7 @@
                             Sakhipur, Bangladesh
                         </td>
                         <td class="p-4 text-gray-600">
-                            12-11-2023
+                            Hub Manager
                         </td>
                         <td class="p-4 text-gray-600">
                             Sakhipur
@@ -309,7 +308,7 @@
                             Chhagalnaiya, Bangladesh
                         </td>
                         <td class="p-4 text-gray-600">
-                            12-11-2023
+                            Driver
                         </td>
                         <td class="p-4 text-gray-600">
                             Chhagalnaiya
@@ -342,7 +341,7 @@
                             Lakshmipur, Bangladesh
                         </td>
                         <td class="p-4 text-gray-600">
-                            12-11-2023
+                            Admin
                         </td>
                         <td class="p-4 text-gray-600">
                             Lakshmipur
@@ -375,7 +374,7 @@
                             Bheramara, Kushtia, Khulna
                         </td>
                         <td class="p-4 text-gray-600">
-                            12-11-2023
+                            Hub Manager
                         </td>
                         <td class="p-4 text-gray-600">
                             Bheramara
