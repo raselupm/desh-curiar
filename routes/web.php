@@ -22,7 +22,7 @@ Route::get('/dashboard', function () {
 })->name('dashboard');
 
 Route::get('/shipments', function () {
-    return view('dashboard');
+    return view('shipment');
 })->name('shipments');
 
 Route::get('/payments', function () {
