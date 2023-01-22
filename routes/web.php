@@ -21,10 +21,26 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
 
+Route::get('/payments', function () {
+    return view('payment');
+})->name('payments');
+
+Route::get('/employees', function () {
+    return view('employee');
+})->name('employees');
+
+Route::get('/vehicles', function () {
+    return view('vehicle');
+})->name('vehicles');
+
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+    
+    // Route::get('/vehicles', [VehicleController::class, 'vehicle'])->name('vehicles');
+    
+
 });
 
 require __DIR__.'/auth.php';

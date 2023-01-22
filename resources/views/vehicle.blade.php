@@ -1,10 +1,9 @@
 <x-app-layout>
-
     <div class="dashboard-bg py-7 pl-7 pr-4 w-full">
         <div class="flex items-center justify-between">
             <div class="min-w-max">
-                <h4 class="text-gray-900 font-size-22 font-bold">Shipments</h4>
-                <p class="text-gray-600"><span>109</span> Orders Found</p>
+                <h4 class="text-gray-900 font-size-22 font-bold">Vehicles</h4>
+                <p class="text-gray-600"><span>109</span> Id Found</p>
             </div>
 
             <div class="min-w-max">
@@ -47,7 +46,7 @@
                 <thead class="text-white bg-blue-600">
                     <tr>
                         <th scope="col" class="px-4 py-3 font-medium">
-                            Booking Id
+                            Vehicles Id
                         </th>
                         <th scope="col" class="px-4 py-3 font-medium">
                             Name
@@ -56,7 +55,7 @@
                             Address
                         </th>
                         <th scope="col" class="px-4 py-3 font-medium">
-                            Date
+                            Type
                         </th>
                         <th scope="col" class="px-4 py-3 font-medium">
                             Hub
@@ -78,7 +77,7 @@
                             Bheramara, Kushtia, Khulna
                         </td>
                         <td class="p-4 text-gray-600">
-                            12-11-2023
+                            Bike
                         </td>
                         <td class="p-4 text-gray-600">
                             Bheramara
@@ -90,7 +89,7 @@
                                     <span class="inline-block"><img
                                             src="{{ asset('assets/img/Iconly/Light/tick-square.svg') }}"
                                             alt=""></span>
-                                    Delivered
+                                    Active
                                 </div>
                                 <div class="flex items-center gap-1">
                                     <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
@@ -111,7 +110,7 @@
                             Sakhipur, Bangladesh
                         </td>
                         <td class="p-4 text-gray-600">
-                            12-11-2023
+                            Truck
                         </td>
                         <td class="p-4 text-gray-600">
                             Sakhipur
@@ -123,7 +122,7 @@
                                     <span class="inline-block"><img
                                             src="{{ asset('assets/img/Iconly/Light/tick-square.svg') }}"
                                             alt=""></span>
-                                    Delivered
+                                    Active
                                 </div>
                                 <div class="flex items-center gap-1">
                                     <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
@@ -144,7 +143,7 @@
                             Chhagalnaiya, Bangladesh
                         </td>
                         <td class="p-4 text-gray-600">
-                            12-11-2023
+                            Mini Van
                         </td>
                         <td class="p-4 text-gray-600">
                             Chhagalnaiya
@@ -156,7 +155,7 @@
                                     <span class="inline-block"><img
                                             src="{{ asset('assets/img/Iconly/Light/close-square.svg') }}"
                                             alt=""></span>
-                                    Canceled
+                                    Inactive
                                 </div>
                                 <div class="flex items-center gap-1">
                                     <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
@@ -177,7 +176,7 @@
                             Lakshmipur, Bangladesh
                         </td>
                         <td class="p-4 text-gray-600">
-                            12-11-2023
+                            Truck
                         </td>
                         <td class="p-4 text-gray-600">
                             Lakshmipur
@@ -189,7 +188,7 @@
                                     <span class="inline-block"><img
                                             src="{{ asset('assets/img/Iconly/Light/tick-square.svg') }}"
                                             alt=""></span>
-                                    Delivered
+                                    Active
                                 </div>
                                 <div class="flex items-center gap-1">
                                     <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
@@ -210,7 +209,7 @@
                             Bheramara, Kushtia, Khulna
                         </td>
                         <td class="p-4 text-gray-600">
-                            12-11-2023
+                            Mini Van
                         </td>
                         <td class="p-4 text-gray-600">
                             Bheramara
@@ -218,11 +217,11 @@
                         <td class="p-4 text-gray-600">
                             <div class="flex items-center justify-between">
                                 <div
-                                    class="inline-block p-1 items-center gap-2 border dc-yellow-border-color dc-yellow-color">
+                                class="inline-block p-1 items-center gap-2 border dc-green-border-color dc-green-color">
                                     <span class="inline-block"><img
-                                            src="{{ asset('assets/img/Iconly/Light/table-setting.svg') }}"
+                                            src="{{ asset('assets/img/Iconly/Light/tick-square.svg') }}"
                                             alt=""></span>
-                                    Delivered
+                                    Active
                                 </div>
                                 <div class="flex items-center gap-1">
                                     <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
@@ -243,7 +242,7 @@
                             Bheramara, Kushtia, Khulna
                         </td>
                         <td class="p-4 text-gray-600">
-                            12-11-2023
+                            Bike
                         </td>
                         <td class="p-4 text-gray-600">
                             Bheramara
@@ -255,7 +254,7 @@
                                     <span class="inline-block"><img
                                             src="{{ asset('assets/img/Iconly/Light/tick-square.svg') }}"
                                             alt=""></span>
-                                    Delivered
+                                    Active
                                 </div>
                                 <div class="flex items-center gap-1">
                                     <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
@@ -276,7 +275,7 @@
                             Sakhipur, Bangladesh
                         </td>
                         <td class="p-4 text-gray-600">
-                            12-11-2023
+                            Truck
                         </td>
                         <td class="p-4 text-gray-600">
                             Sakhipur
@@ -288,7 +287,7 @@
                                     <span class="inline-block"><img
                                             src="{{ asset('assets/img/Iconly/Light/tick-square.svg') }}"
                                             alt=""></span>
-                                    Delivered
+                                    Active
                                 </div>
                                 <div class="flex items-center gap-1">
                                     <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
@@ -309,7 +308,7 @@
                             Chhagalnaiya, Bangladesh
                         </td>
                         <td class="p-4 text-gray-600">
-                            12-11-2023
+                            Bike
                         </td>
                         <td class="p-4 text-gray-600">
                             Chhagalnaiya
@@ -321,7 +320,7 @@
                                     <span class="inline-block"><img
                                             src="{{ asset('assets/img/Iconly/Light/close-square.svg') }}"
                                             alt=""></span>
-                                    Canceled
+                                    Inactive
                                 </div>
                                 <div class="flex items-center gap-1">
                                     <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
@@ -342,7 +341,7 @@
                             Lakshmipur, Bangladesh
                         </td>
                         <td class="p-4 text-gray-600">
-                            12-11-2023
+                            Truck
                         </td>
                         <td class="p-4 text-gray-600">
                             Lakshmipur
@@ -350,11 +349,11 @@
                         <td class="p-4 text-gray-600">
                             <div class="flex items-center justify-between">
                                 <div
-                                    class="inline-block p-1 items-center gap-2 border dc-green-border-color dc-green-color">
+                                class="inline-block p-1 items-center gap-2 border dc-green-border-color dc-green-color">
                                     <span class="inline-block"><img
                                             src="{{ asset('assets/img/Iconly/Light/tick-square.svg') }}"
                                             alt=""></span>
-                                    Delivered
+                                    Active
                                 </div>
                                 <div class="flex items-center gap-1">
                                     <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
@@ -375,7 +374,7 @@
                             Bheramara, Kushtia, Khulna
                         </td>
                         <td class="p-4 text-gray-600">
-                            12-11-2023
+                            Mini Van
                         </td>
                         <td class="p-4 text-gray-600">
                             Bheramara
@@ -383,11 +382,11 @@
                         <td class="p-4 text-gray-600">
                             <div class="flex items-center justify-between">
                                 <div
-                                    class="inline-block p-1 items-center gap-2 border dc-yellow-border-color dc-yellow-color">
+                                class="inline-block p-1 items-center gap-2 border dc-red-border-color dc-red-color">
                                     <span class="inline-block"><img
-                                            src="{{ asset('assets/img/Iconly/Light/table-setting.svg') }}"
+                                            src="{{ asset('assets/img/Iconly/Light/close-square.svg') }}"
                                             alt=""></span>
-                                    Delivered
+                                    Inactive
                                 </div>
                                 <div class="flex items-center gap-1">
                                     <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
