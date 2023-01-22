@@ -129,7 +129,7 @@
         </div>
         <!--End SideBar-->
 
-        <div class="dashboard-bg p-7 w-full">
+        <div class="dashboard-bg py-7 pl-7 pr-4 w-full">
             <div class="flex items-center justify-between">
                 <div class="min-w-max">
                     <h4 class="text-gray-900 font-size-22 font-bold">Shipments</h4>
