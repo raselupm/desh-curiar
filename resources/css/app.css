@@ -23,7 +23,7 @@
 }
 
 .login-page-bg {
-    background-image: url('../../assets/img/login-bg.png');
+    background-image: url("../../public/assets/img/login-page-bg.png");
 }
 
 .dc-login-box {
@@ -37,4 +37,39 @@
 .dc-btn {
     @apply text-white font-semibold py-4 px-6 w-full rounded;
     background-color: #5a26ff
+}
+
+.profile-bg{
+    background-image:url("../../public/assets/img/profile.png");
+}
+
+.gray-bg{
+    background-color:#F7F7F7;
+}
+.dashboard-bg{
+    background-color:#E5E5E5;
+}
+.font-size-22{
+    font-size:22px;
+}
+.dc-green-border-color{
+    border-color:rgba(97, 200, 119, 0.3);
+}
+.dc-green-color{
+    color:#61C877;
+}
+.dc-red-color{
+    color:#FF6056;
+}
+.dc-red-border-color{
+   border-color:rgba(255, 96, 86, 0.3);
+}
+.dc-yellow-border-color{
+    color:#FFCE93;
+}
+.dc-red-color{
+   border-color:rgba(255, 206, 147, 0.3);
+}
+.h-inherit {
+    height: inherit;
 }

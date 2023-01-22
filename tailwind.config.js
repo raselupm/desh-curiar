@@ -13,6 +13,11 @@ module.exports = {
             fontFamily: {
                 sans: ['Helvetica Neue', ...defaultTheme.fontFamily.sans],
             },
+            colors:{
+                blue: {
+                    600: '#5a26ff'
+                },
+            }
         },
     },
 
