@@ -73,3 +73,9 @@
 .h-inherit {
     height: inherit;
 }
+
+
+.single-input-row  label {
+    color: #706B87;
+    /* font-size: 13px; */
+}
