@@ -13,7 +13,7 @@
                 </div>
             </div>
             <div class="profile-right-btn">
-                <a href="#" class="bg-blue-400 text-white px-8 py-3.5 hover:bg-blue-600 hover:text-white ease-in-out duration-300">Edit</a>
+                <a href="#" class="bg-blue-500 text-white px-8 py-3.5 hover:bg-blue-600 hover:text-white ease-in-out duration-300">Edit</a>
             </div>
            </div>
 
@@ -21,12 +21,12 @@
 
             <div class="single-input-row flex gap-4 mb-4">
 
-                <div class="border-b dc-header-broder-color mb-2">
-                    <label for="first_name">First Name</label>
+                <div class="border-b dc-header-broder-color mb-2 profile-setting-input">
+                    <label class="text-gray-500" for="first_name">First Name</label>
                     <input id="first_name" class="border-none focus:outline-none focus:border-none focus:ring-0" type="text">
                 </div>
-                <div class="border-b dc-header-broder-color mb-2">
-                    <label for="last_name">Last Name</label>
+                <div class="border-b dc-header-broder-color mb-2  profile-setting-input">
+                    <label class="text-gray-500" for="last_name">Last Name</label>
                     <input id="last_name" class="border-none focus:outline-none focus:border-none focus:ring-0" type="text">
                 </div>
 
@@ -34,12 +34,12 @@
             <div class="single-input-row flex gap-4 mb-4">
 
                 <div class="border-b dc-header-broder-color mb-2">
-                    <label for="birth_date">Date of Birth</label>
+                    <label class="text-gray-500" for="birth_date">Date of Birth</label>
                     <input id="birth_date" class="appearance-none border-none focus:outline-none focus:border-none focus:ring-0 appearance-none" type="date">
                 </div>
 
                 <div class="border-b dc-header-broder-color mb-2">
-                    <label for="join_date">Date Of Joining</label>
+                    <label class="text-gray-500" for="join_date">Date Of Joining</label>
                     <input id="join_date" class="border-none focus:outline-none focus:border-none focus:ring-0" type="date">
                 </div>
 
@@ -47,11 +47,11 @@
             <div class="single-input-row flex gap-4 mb-4">
 
                 <div class="border-b dc-header-broder-color mb-2">
-                    <label for="mobile_number">Mobile Number</label>
+                    <label class="text-gray-500" for="mobile_number">Mobile Number</label>
                     <input id="mobile_number" class="border-none focus:outline-none focus:border-none focus:ring-0" type="number">
                 </div>
                 <div class="border-b dc-header-broder-color mb-2">
-                    <label for="email">Email</label>
+                    <label class="text-gray-500" for="email">Email</label>
                     <input id="email" class="border-none focus:outline-none focus:border-none focus:ring-0" type="text">
                 </div>
 
@@ -59,11 +59,11 @@
             <div class="single-input-row flex gap-4 mb-4">
 
                 <div class="border-b dc-header-broder-color mb-2">
-                    <label for="nid_card">Nid Card Number</label>
+                    <label class="text-gray-500" for="nid_card">Nid Card Number</label>
                     <input id="nid_card" class="appearance-none border-none focus:outline-none focus:border-none focus:ring-0" type="number">
                 </div>
                 <div class="border-b dc-header-broder-color mb-2">
-                    <label for="profile_id">Profile Id Number</label>
+                    <label class="text-gray-500" for="profile_id">Profile Id Number</label>
                     <input id="profile_id" class="border-none focus:outline-none focus:border-none focus:ring-0" type="number">
                 </div>
 
@@ -71,11 +71,11 @@
             <div class="single-input-row flex gap-4 mb-4">
 
                 <div class="border-b dc-header-broder-color mb-2">
-                    <label for="address">Address</label>
+                    <label class="text-gray-500" for="address">Address</label>
                     <input id="address" class="border-none focus:outline-none focus:border-none focus:ring-0" type="text">
                 </div>
                 <div class="border-b dc-header-broder-color mb-2">
-                    <label for="hub">Hub</label>
+                    <label class="text-gray-500" for="hub">Hub</label>
                     <input id="hub" class="border-none focus:outline-none focus:border-none focus:ring-0" type="text">
                 </div>
 
