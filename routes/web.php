@@ -21,9 +21,6 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
 
-Route::get('/shipments', function () {
-    return view('shipment');
-})->name('shipments');
 
 Route::get('/payments', function () {
     return view('payment');
