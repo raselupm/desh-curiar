@@ -37,6 +37,10 @@ Route::get('/vehicles', function () {
     return view('vehicle');
 })->name('vehicles');
 
+Route::get('/location', function () {
+    return view('location');
+})->name('location');
+
 Route::get('/profile-setting', function () {
     return view('profile-setting');
 })->name('profile-setting');

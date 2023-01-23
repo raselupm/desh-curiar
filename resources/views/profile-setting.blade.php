@@ -13,7 +13,7 @@
                 </div>
             </div>
             <div class="profile-right-btn">
-                <a href="#" class="bg-blue-500 text-white px-8 py-3.5 hover:bg-blue-600 hover:text-white ease-in-out duration-300">Edit</a>
+              <a href="#" class="bg-blue-500 text-white px-6 py-3 hover:bg-blue-600 hover:text-white ease-in-out duration-300">Edit Profile</a>
             </div>
            </div>
 

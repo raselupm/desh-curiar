@@ -3,7 +3,7 @@
         <div class="flex items-center justify-between">
             <div class="min-w-max">
                 <h4 class="text-gray-900 font-size-22 font-bold">Shipments</h4>
-                <p class="text-gray-600"><span>109</span> Id Found</p>
+                <p class="text-gray-600"><span>109</span> Orders Found</p>
             </div>
 
             <div class="min-w-max">
