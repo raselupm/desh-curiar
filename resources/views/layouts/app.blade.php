@@ -40,7 +40,9 @@
             <a href="#" class="pr-4">
                 <img src="{{ asset('assets/img/Iconly/Light/notification.svg') }}" alt="">
             </a>
-            <div class="profile-bg w-10 h-10 bg-center bg-contain bg-no-repeat rounded-full"></div>
+            <a href="{{ route('profile-setting') }}">
+                <div class="profile-bg w-10 h-10 bg-center bg-contain bg-no-repeat rounded-full"></div>
+            </a>
         </div>
     </div>
     <!--End Header Section-->
@@ -55,32 +57,33 @@
                         <h3 class="font-bold mb-3 text-gray-900">Menu</h3>
                         <ul class="ml-2">
                             <li class="mb-3">
-                                <a href="{{route('dashboard')}}" class="flex text-gray-300 items-center gap-2">
-                                    <span><img src="{{ asset('assets/img/Iconly/Light/dashboard.svg') }}"
-                                            alt=""></span>
-                                    Dashboard
-                                </a>
+                                <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')" class="flex text-gray-300 items-center gap-2">
+                                    <span>
+                                        <img src="{{ asset('assets/img/Iconly/Light/dashboard.svg') }}" alt="">
+                                    </span>
+                                    {{ __('Dashboard') }}
+                                </x-responsive-nav-link>
                             </li>
                             <li class="mb-3">
-                                <a href="{{route('shipments')}}" class="flex text-blue-600 font-bold items-center gap-2">
-                                    <span><img src="{{ asset('assets/img/Iconly/Light/more.svg') }}"
+                                <x-responsive-nav-link :href="route('shipments')" :active="request()->routeIs('shipments')" class="flex text-gray-300 items-center gap-2">
+                                    <span><img src="{{ asset('assets/img/Iconly/Light/shipment.svg') }}"
                                             alt=""></span>
                                     Shipments
-                                </a>
+                                </x-responsive-nav-link>
                             </li>
                             <li class="mb-3">
-                                <a href="{{route('payments')}}" class="flex text-gray-300 items-center gap-2">
+                                <x-responsive-nav-link :href="route('payments')" :active="request()->routeIs('payments')" class="flex text-gray-300 items-center gap-2">
                                     <span><img src="{{ asset('assets/img/Iconly/Light/card.svg') }}"
                                             alt=""></span>
                                     Payments
-                                </a>
+                                </x-responsive-nav-link>
                             </li>
                             <li class="mb-3">
-                                <a href="#" class="flex text-gray-300 items-center gap-2">
+                                <x-responsive-nav-link :href="route('location')" :active="request()->routeIs('location')" class="flex text-gray-300 items-center gap-2">
                                     <span><img src="{{ asset('assets/img/Iconly/Light/location.svg') }}"
                                             alt=""></span>
                                     Location
-                                </a>
+                                </x-responsive-nav-link>
                             </li>
                         </ul>
                     </div>
@@ -88,18 +91,18 @@
                         <h3 class="font-bold mb-3 text-gray-900">Organisation</h3>
                         <ul class="ml-2">
                             <li class="mb-3">
-                                <a href="{{route('employees')}}" class="flex text-gray-300 items-center gap-2">
+                                <x-responsive-nav-link :href="route('employees')" :active="request()->routeIs('employees')" class="flex text-gray-300 items-center gap-2">
                                     <span><img src="{{ asset('assets/img/Iconly/Light/user.svg') }}"
                                             alt=""></span>
                                     Employees
-                                </a>
+                                </x-responsive-nav-link>
                             </li>
                             <li class="mb-3">
-                                <a href="{{route('vehicles')}}" class="flex text-gray-300 items-center gap-2">
+                                <x-responsive-nav-link :href="route('vehicles')" :active="request()->routeIs('vehicles')" class="flex text-gray-300 items-center gap-2">
                                     <span><img src="{{ asset('assets/img/Iconly/Light/truck.svg') }}"
                                             alt=""></span>
                                     Vehicles
-                                </a>
+                                </x-responsive-nav-link>
                             </li>
                         </ul>
                     </div>
@@ -120,7 +123,9 @@
                     <div class="flex items-center gap-3 py-5">
                         <div class="profile-bg w-[50px] h-[50px] bg-center bg-contain bg-no-repeat rounded-full"></div>
                         <div>
-                            <h4 class="text-lg font-medium text-gray-900">Ratul Ahmed</h4>
+                            <a href="{{ route('profile-setting') }}">
+                                <h4 class="text-lg font-medium text-gray-900">Ratul Ahmed</h4>
+                            </a>
                             <span class="text-lg text-gray-300">Admin</span>
                         </div>
                     </div>

@@ -80,3 +80,30 @@
 .dc-onprocess-color{
     color:#f9ce93;
 }
+
+.dc-user-box{
+    @apply bg-white;
+    height: 800px;
+    width: 500px;
+}
+
+.dc-profile_image{
+    height: 66px;
+    width: 66px;
+}
+
+.dc-user-title{
+    font-size: 14px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    @apply text-gray-500
+}
+
+.dc-user-text{
+    font-size: 18px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    @apply border-b py-2 text-black
+}
