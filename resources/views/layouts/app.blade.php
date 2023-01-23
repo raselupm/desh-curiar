@@ -62,7 +62,7 @@
                                 </a>
                             </li>
                             <li class="mb-3">
-                                <a href="{{route('dashboard')}}" class="flex text-blue-600 font-bold items-center gap-2">
+                                <a href="{{route('shipments')}}" class="flex text-blue-600 font-bold items-center gap-2">
                                     <span><img src="{{ asset('assets/img/Iconly/Light/more.svg') }}"
                                             alt=""></span>
                                     Shipments

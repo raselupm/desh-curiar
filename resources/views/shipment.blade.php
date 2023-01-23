@@ -1,40 +1,9 @@
 <x-app-layout>
-
     <div class="dashboard-bg py-7 pl-7 pr-4 w-full">
-        <div class="flex w-full gap-6">
-            <div class="flex items-center w-8/12 bg-white border-gray-300 py-10 px-5">
-                <div class="flex items-center w-3/4">
-                    <h2 class="mr-2 text-lg text-black font-bold">Total Trends</h2>
-                    <img src="{{ asset('assets/img/Iconly/Light/Information.svg') }}" alt="">
-                </div>
-                <div class="flex items-center w-1/4 justify-end">
-                <span class="pl-2 pr-1">
-                    <img src="{{ asset('assets/img/Iconly/Light/Calendar.svg') }}" alt="">
-                </span>
-                <select class="border-gray-300 py-1  focus:ring-0 focus:outline-none" name="" id="">
-                    <option value="June">June</option>
-                </select>
-                </div>
-            </div>
-            <div class="flex items-center w-4/12 bg-white border-gray-300 py-10 px-5">
-                <div class="flex items-center w-3/4">
-                    <h2 class="mr-2 text-lg text-black font-bold">Profit Sharing</h2>
-                    <img src="{{ asset('assets/img/Iconly/Light/Information.svg') }}" alt="">
-                </div>
-                <div class="flex items-center w-1/4 justify-end">
-                <span class="pl-2 pr-1">
-                    <img src="{{ asset('assets/img/Iconly/Light/Calendar.svg') }}" alt="">
-                </span>
-                <select class="border-gray-300 py-1  focus:ring-0 focus:outline-none" name="" id="">
-                    <option value="June">June</option>
-                </select>
-                </div>
-            </div>
-        </div>
-        <div class="flex mt-5 items-center justify-between">
+        <div class="flex items-center justify-between">
             <div class="min-w-max">
-                <h4 class="text-gray-900 font-size-22 font-bold">Payment History</h4>
-                <p class="text-gray-600"><span>June - 109</span> Payments Found</p>
+                <h4 class="text-gray-900 font-size-22 font-bold">Shipments</h4>
+                <p class="text-gray-600"><span>109</span> Id Found</p>
             </div>
 
             <div class="min-w-max">
@@ -50,7 +19,7 @@
                             <option>All Orders</option>
                             <option value="Dec">Dec</option>
                             <option value="Asc">Asc</option>
-                        </select>
+                       </select>
                     </div>
                     <div class="flex items-center min-w-max bg-white">
                         <span class="pl-2 pr-1">
@@ -63,7 +32,9 @@
                             <option value="Dec">Dec</option>
                         </select>
                     </div>
-
+                    <a href="#" class="bg-blue-600 py-1 px-2 text-white flex gap-2 items-center">Add New
+                        <span><img src="{{ asset('assets/img/Iconly/Light/plus.svg') }}"
+                                alt=""></span></a>
                 </div>
             </div>
         </div>
@@ -75,50 +46,41 @@
                 <thead class="text-white bg-blue-600">
                     <tr>
                         <th scope="col" class="px-4 py-3 font-medium">
-                            Booking Id
-                        </th>
-
-                        <th scope="col" class="px-4 py-3 font-medium">
-                            Payment Id
+                            Employee Id
                         </th>
                         <th scope="col" class="px-4 py-3 font-medium">
                             Name
                         </th>
-
                         <th scope="col" class="px-4 py-3 font-medium">
-                            Date
+                            Address
                         </th>
                         <th scope="col" class="px-4 py-3 font-medium">
                             Type
                         </th>
                         <th scope="col" class="px-4 py-3 font-medium">
-                            Amount
+                            Hub
+                        </th>
+                        <th scope="col" class="px-4 py-3 font-medium">
+                            Status
                         </th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr class="bg-white">
-                        <td scope="row" class="p-4 text-gray-600">
-                            126802736
-                        </td>
-                        <td scope="row" class="p-4 text-gray-600">
-                            #3573257326
-                        </td>
+                        <td scope="row" class="p-4 text-gray-600"> 126802736 </td>
+                        <td class="p-4 text-gray-600"> Ratul Ahmed </td>
+                        <td class="p-4 text-gray-600"> Bheramara, Kushtia, Khulna</td>
+                        <td class="p-4 text-gray-600">  Admin </td>
+                        <td class="p-4 text-gray-600">  Bheramara </td>
                         <td class="p-4 text-gray-600">
-                            Ratul Ahmed
-                        </td>
 
-                        <td class="p-4 text-gray-600">
-                            12-11-2023
-                        </td>
-                        <td class="p-4 text-gray-600">
-                            Bkash
-                        </td>
-                        <td class="p-4 text-gray-600">
                             <div class="flex items-center justify-between">
                                 <div
                                     class="inline-block p-1 items-center gap-2 border dc-green-border-color dc-green-color">
-                                    $567
+                                    <span class="inline-block"><img
+                                            src="{{ asset('assets/img/Iconly/Light/tick-square.svg') }}"
+                                            alt=""></span>
+                                            Delivered
                                 </div>
                                 <div class="flex items-center gap-1">
                                     <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
@@ -131,24 +93,27 @@
                     <tr class="bg-white">
                         <td scope="row" class="p-4 text-gray-600">
                             659316598
-                        </td>
-                        <td scope="row" class="p-4 text-gray-600">
-                            #3573257327
                         </td>
                         <td class="p-4 text-gray-600">
                             Rasel Ahmed
                         </td>
                         <td class="p-4 text-gray-600">
-                            12-11-2023
+                            Sakhipur, Bangladesh
                         </td>
                         <td class="p-4 text-gray-600">
-                            Cash
+                            Hub Manager
+                        </td>
+                        <td class="p-4 text-gray-600">
+                            Sakhipur
                         </td>
                         <td class="p-4 text-gray-600">
                             <div class="flex items-center justify-between">
                                 <div
                                     class="inline-block p-1 items-center gap-2 border dc-green-border-color dc-green-color">
-                                    $1260
+                                    <span class="inline-block"><img
+                                            src="{{ asset('assets/img/Iconly/Light/tick-square.svg') }}"
+                                            alt=""></span>
+                                            Delivered
                                 </div>
                                 <div class="flex items-center gap-1">
                                     <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
@@ -161,25 +126,27 @@
                     <tr class="bg-white">
                         <td scope="row" class="p-4 text-gray-600">
                             659316598
-                        </td>
-                        <td scope="row" class="p-4 text-gray-600">
-                            #3573257328
                         </td>
                         <td class="p-4 text-gray-600">
                             Towhozib Ahmed Tomal
                         </td>
-
                         <td class="p-4 text-gray-600">
-                            12-11-2023
+                            Chhagalnaiya, Bangladesh
                         </td>
                         <td class="p-4 text-gray-600">
-                            Debit
+                            Driver
+                        </td>
+                        <td class="p-4 text-gray-600">
+                            Chhagalnaiya
                         </td>
                         <td class="p-4 text-gray-600">
                             <div class="flex items-center justify-between">
                                 <div
-                                class="inline-block p-1 items-center gap-2 border dc-green-border-color dc-green-color">
-                                    $64
+                                    class="inline-block p-1 items-center gap-2 border dc-red-border-color dc-red-color">
+                                    <span class="inline-block"><img
+                                            src="{{ asset('assets/img/Iconly/Light/close-square.svg') }}"
+                                            alt=""></span>
+                                            Canceled
                                 </div>
                                 <div class="flex items-center gap-1">
                                     <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
@@ -192,24 +159,27 @@
                     <tr class="bg-white">
                         <td scope="row" class="p-4 text-gray-600">
                             659316598
-                        </td>
-                        <td scope="row" class="p-4 text-gray-600">
-                            #3573257328
                         </td>
                         <td class="p-4 text-gray-600">
                             Sojol Ahmed
                         </td>
                         <td class="p-4 text-gray-600">
-                            12-11-2023
+                            Lakshmipur, Bangladesh
                         </td>
                         <td class="p-4 text-gray-600">
-                            Rocket
+                           Delivery Man
+                        </td>
+                        <td class="p-4 text-gray-600">
+                            Lakshmipur
                         </td>
                         <td class="p-4 text-gray-600">
                             <div class="flex items-center justify-between">
                                 <div
-                                class="inline-block p-1 items-center gap-2 border dc-green-border-color dc-green-color">
-                                    $890
+                                    class="inline-block p-1 items-center gap-2 border dc-green-border-color dc-green-color">
+                                    <span class="inline-block"><img
+                                            src="{{ asset('assets/img/Iconly/Light/tick-square.svg') }}"
+                                            alt=""></span>
+                                            Delivered
                                 </div>
                                 <div class="flex items-center gap-1">
                                     <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
@@ -222,24 +192,27 @@
                     <tr class="bg-white">
                         <td scope="row" class="p-4 text-gray-600">
                             126802736
-                        </td>
-                        <td scope="row" class="p-4 text-gray-600">
-                            #35732573211
                         </td>
                         <td class="p-4 text-gray-600">
                             Ratul Ahmed
                         </td>
                         <td class="p-4 text-gray-600">
-                            12-11-2023
+                            Bheramara, Kushtia, Khulna
                         </td>
                         <td class="p-4 text-gray-600">
-                            Bkash
+                            Admin
+                        </td>
+                        <td class="p-4 text-gray-600">
+                            Bheramara
                         </td>
                         <td class="p-4 text-gray-600">
                             <div class="flex items-center justify-between">
                                 <div
-                                class="inline-block p-1 items-center gap-2 border dc-green-border-color dc-green-color">
-                                    $445
+                                class="inline-block p-1 items-center gap-2 border dc-onprocess-color dc-onprocess-border-color">
+                                    <span class="inline-block"><img
+                                            src="{{ asset('assets/img/Iconly/Light/setting-2.svg') }}"
+                                            alt=""></span>
+                                            On Process
                                 </div>
                                 <div class="flex items-center gap-1">
                                     <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
@@ -252,24 +225,27 @@
                     <tr class="bg-white">
                         <td scope="row" class="p-4 text-gray-600">
                             126802736
-                        </td>
-                        <td scope="row" class="p-4 text-gray-600">
-                            #3573257314
                         </td>
                         <td class="p-4 text-gray-600">
                             Ratul Ahmed
                         </td>
                         <td class="p-4 text-gray-600">
-                            12-11-2023
+                            Bheramara, Kushtia, Khulna
                         </td>
                         <td class="p-4 text-gray-600">
-                            Debit
+                            Delivery Man
+                        </td>
+                        <td class="p-4 text-gray-600">
+                            Bheramara
                         </td>
                         <td class="p-4 text-gray-600">
                             <div class="flex items-center justify-between">
                                 <div
-                                class="inline-block p-1 items-center gap-2 border dc-green-border-color dc-green-color">
-                                    $1000
+                                    class="inline-block p-1 items-center gap-2 border dc-green-border-color dc-green-color">
+                                    <span class="inline-block"><img
+                                            src="{{ asset('assets/img/Iconly/Light/tick-square.svg') }}"
+                                            alt=""></span>
+                                            Delivered
                                 </div>
                                 <div class="flex items-center gap-1">
                                     <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
@@ -281,26 +257,28 @@
                     </tr>
                     <tr class="bg-white">
                         <td scope="row" class="p-4 text-gray-600">
-                            126802736
-                        </td>
-                        <td scope="row" class="p-4 text-gray-600">
-                            #357325798
+                            659316598
                         </td>
                         <td class="p-4 text-gray-600">
                             Rasel Ahmed
                         </td>
-
                         <td class="p-4 text-gray-600">
-                            12-11-2023
+                            Sakhipur, Bangladesh
                         </td>
                         <td class="p-4 text-gray-600">
-                            credit
+                            Hub Manager
+                        </td>
+                        <td class="p-4 text-gray-600">
+                            Sakhipur
                         </td>
                         <td class="p-4 text-gray-600">
                             <div class="flex items-center justify-between">
                                 <div
-                                class="inline-block p-1 items-center gap-2 border dc-green-border-color dc-green-color">
-                                    $55
+                                    class="inline-block p-1 items-center gap-2 border dc-onprocess-color dc-onprocess-border-color">
+                                    <span class="inline-block"><img
+                                            src="{{ asset('assets/img/Iconly/Light/setting-2.svg') }}"
+                                            alt=""></span>
+                                            On Process
                                 </div>
                                 <div class="flex items-center gap-1">
                                     <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
@@ -313,23 +291,27 @@
                     <tr class="bg-white">
                         <td scope="row" class="p-4 text-gray-600">
                             659316598
-                        <td scope="row" class="p-4 text-gray-600">
-                            #357325734
                         </td>
                         <td class="p-4 text-gray-600">
                             Towhozib Ahmed Tomal
                         </td>
                         <td class="p-4 text-gray-600">
-                            12-11-2023
+                            Chhagalnaiya, Bangladesh
                         </td>
                         <td class="p-4 text-gray-600">
-                            Debit
+                            Driver
+                        </td>
+                        <td class="p-4 text-gray-600">
+                            Chhagalnaiya
                         </td>
                         <td class="p-4 text-gray-600">
                             <div class="flex items-center justify-between">
                                 <div
-                                class="inline-block p-1 items-center gap-2 border dc-green-border-color dc-green-color">
-                                    $678
+                                    class="inline-block p-1 items-center gap-2 border dc-red-border-color dc-red-color">
+                                    <span class="inline-block"><img
+                                            src="{{ asset('assets/img/Iconly/Light/close-square.svg') }}"
+                                            alt=""></span>
+                                            Canceled
                                 </div>
                                 <div class="flex items-center gap-1">
                                     <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
@@ -343,24 +325,26 @@
                         <td scope="row" class="p-4 text-gray-600">
                             659316598
                         </td>
-                        <td scope="row" class="p-4 text-gray-600">
-                            #357325267
-                        </td>
                         <td class="p-4 text-gray-600">
                             Sojol Ahmed
                         </td>
                         <td class="p-4 text-gray-600">
-                            12-11-2023
+                            Lakshmipur, Bangladesh
                         </td>
                         <td class="p-4 text-gray-600">
-                            Cash On
+                            Admin
+                        </td>
+                        <td class="p-4 text-gray-600">
+                            Lakshmipur
                         </td>
                         <td class="p-4 text-gray-600">
                             <div class="flex items-center justify-between">
                                 <div
-                                class="inline-block p-1 items-center gap-2 border dc-green-border-color dc-green-color">
-
-                                    $300
+                                    class="inline-block p-1 items-center gap-2 border dc-green-border-color dc-green-color">
+                                    <span class="inline-block"><img
+                                            src="{{ asset('assets/img/Iconly/Light/tick-square.svg') }}"
+                                            alt=""></span>
+                                            Delivered
                                 </div>
                                 <div class="flex items-center gap-1">
                                     <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
@@ -374,24 +358,26 @@
                         <td scope="row" class="p-4 text-gray-600">
                             126802736
                         </td>
-                        <td scope="row" class="p-4 text-gray-600">
-                            #35732567
-                        </td>
                         <td class="p-4 text-gray-600">
                             Ratul Ahmed
                         </td>
-
                         <td class="p-4 text-gray-600">
-                            12-11-2023
+                            Bheramara, Kushtia, Khulna
                         </td>
                         <td class="p-4 text-gray-600">
-                            Credit
+                            Hub Manager
+                        </td>
+                        <td class="p-4 text-gray-600">
+                            Bheramara
                         </td>
                         <td class="p-4 text-gray-600">
                             <div class="flex items-center justify-between">
                                 <div
-                                class="inline-block p-1 items-center gap-2 border dc-green-border-color dc-green-color">
-                                    $200
+                                    class="inline-block p-1 items-center gap-2 border dc-green-border-color dc-green-color">
+                                    <span class="inline-block"><img
+                                            src="{{ asset('assets/img/Iconly/Light/tick-square.svg') }}"
+                                            alt=""></span>
+                                            Delivered
                                 </div>
                                 <div class="flex items-center gap-1">
                                     <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
