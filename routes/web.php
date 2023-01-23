@@ -21,6 +21,9 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
 
+Route::get('/shipments', function () {
+    return view('shipment');
+})->name('shipments');
 
 Route::get('/payments', function () {
     return view('payment');
@@ -44,7 +47,7 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 
     // Route::get('/vehicles', [VehicleController::class, 'vehicle'])->name('vehicles');
-    
+
 
 });
 

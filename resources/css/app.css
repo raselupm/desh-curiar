@@ -73,9 +73,10 @@
 .h-inherit {
     height: inherit;
 }
+.dc-onprocess-border-color{
+    border-color:rgb(253 240 223);
+}
 
-
-.single-input-row  label {
-    color: #706B87;
-    /* font-size: 13px; */
+.dc-onprocess-color{
+    color:#f9ce93;
 }
