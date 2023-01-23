@@ -73,3 +73,10 @@
 .h-inherit {
     height: inherit;
 }
+.dc-onprocess-border-color{
+    border-color:rgb(253 240 223);
+}
+
+.dc-onprocess-color{
+    color:#f9ce93;
+}

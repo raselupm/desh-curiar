@@ -21,6 +21,10 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
 
+Route::get('/shipments', function () {
+    return view('shipment');
+})->name('shipments');
+
 Route::get('/payments', function () {
     return view('payment');
 })->name('payments');
@@ -37,9 +41,9 @@ Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-    
+
     // Route::get('/vehicles', [VehicleController::class, 'vehicle'])->name('vehicles');
-    
+
 
 });
 
