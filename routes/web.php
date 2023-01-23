@@ -37,6 +37,10 @@ Route::get('/vehicles', function () {
     return view('vehicle');
 })->name('vehicles');
 
+Route::get('/profile-setting', function () {
+    return view('profile-setting');
+})->name('profile-setting');
+
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
