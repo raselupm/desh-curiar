@@ -10,7 +10,6 @@
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
-
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
@@ -38,9 +37,9 @@
             </form>
             <span class="w-0.5 h-10 bg-gray-100 inline-block  mx-8"></span>
             <a href="#" class="pr-4">
-                <img src="{{ asset('assets/img/Iconly/Light/notification.svg') }}" alt="">
+                <img src="{{ asset('assets/img/profile.png') }}" alt="">
             </a>
-            <a href="{{ route('profile-setting') }}">
+             <a href="{{ route('profile-setting') }}">
                 <div class="profile-bg w-10 h-10 bg-center bg-contain bg-no-repeat rounded-full"></div>
             </a>
         </div>
@@ -109,7 +108,7 @@
                 </div>
                 <div class="">
                     <div class=" pr-4 pb-6">
-                        <a href="#" class="bg-[#F9F9F9] p-4 flex gap-4 mb-2.5">
+                        <a href="{{route('profile-setting')}}" class="bg-[#F9F9F9] p-4 flex gap-4 mb-2.5">
                             <img src="{{ asset('assets/img/Iconly/Light/setting.svg') }}" alt="">
                             Settings
                         </a>

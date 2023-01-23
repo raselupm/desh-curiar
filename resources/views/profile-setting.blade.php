@@ -13,21 +13,21 @@
                 </div>
             </div>
             <div class="profile-right-btn">
-                <a href="#" class="bg-blue-500 text-white px-6 py-3 hover:bg-blue-600 hover:text-white ease-in-out duration-300">Edit Profile</a>
+              <a href="#" class="bg-blue-500 text-white px-6 py-3 hover:bg-blue-600 hover:text-white ease-in-out duration-300">Edit Profile</a>
             </div>
            </div>
 
            <div class="input-field-area px-6 mt-8">
 
-            <div class="single-input-row flex gap-5 mb-4">
+            <div class="single-input-row flex gap-4 mb-4">
 
                 <div class="border-b dc-header-broder-color mb-2 profile-setting-input">
                     <label class="text-gray-500" for="first_name">First Name</label>
-                    <input id="first_name" class="border-none focus:outline-none focus:border-none focus:ring-0" type="text" value="Ratul">
+                    <input id="first_name" class="border-none focus:outline-none focus:border-none focus:ring-0" type="text">
                 </div>
                 <div class="border-b dc-header-broder-color mb-2  profile-setting-input">
                     <label class="text-gray-500" for="last_name">Last Name</label>
-                    <input id="last_name" class="border-none focus:outline-none focus:border-none focus:ring-0" type="text" value="Ahmed">
+                    <input id="last_name" class="border-none focus:outline-none focus:border-none focus:ring-0" type="text">
                 </div>
 
             </div>
@@ -35,7 +35,7 @@
 
                 <div class="border-b dc-header-broder-color mb-2">
                     <label class="text-gray-500" for="birth_date">Date of Birth</label>
-                    <input id="birth_date" class="border-none focus:outline-none focus:border-none focus:ring-0 appearance-none" type="date" value="03.17.1989">
+                    <input id="birth_date" class="appearance-none border-none focus:outline-none focus:border-none focus:ring-0 appearance-none" type="date">
                 </div>
 
                 <div class="border-b dc-header-broder-color mb-2">
